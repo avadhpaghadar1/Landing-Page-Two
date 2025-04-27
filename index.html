@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Layout second</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans">
+    <link href="./vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./vendors/slick/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./vendors/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="./vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container head">
+        <div class="d-inline-flex head_left">
+            <div class="border-start border-1 d-inline-flex head_left_item">
+                <i class="fa-solid fa-location-dot me-2 gray_color"></i><span>Address lines, goes her
+                    now</span>
+            </div>
+            <div class="border-start border-1 d-inline-flex head_left_item">
+                <i class="fa-solid fa-phone-flip me-2 gray_color"></i><span>Phone:+01-23-456789</span>
+            </div>
+            <div class="border-start border-1 d-inline-flex head_left_item">
+                <i class="fa-solid fa-envelope me-2 gray_color"></i><span>Email:email.id@goes.here</span>
+            </div>
+        </div>
+        <div class="col-2 col-sm-2 d-inline-flex head_right">
+            <div class="head_right_item border-start">
+                <a href="#"><i class="fa-brands fa-facebook-f gray_color"></i></a>
+            </div>
+            <div class="head_right_item border-start">
+                <a href="#"><i class="fa-brands fa-twitter gray_color"></i></a>
+            </div>
+            <div class="head_right_item border-start">
+                <a href="#"><i class="fa-brands fa-google-plus-g gray_color"></i></a>
+            </div>
+            <div class="head_right_item border-start border-end">
+                <a href="#"><i class="fa-brands fa-vimeo-v gray_color"></i></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Avatar Logo" style="width: 180px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar_toggler_icon"><i class="fa-solid fa-bars"
+                        style="color: #202122"></i></span>
+            </button>
+            <div class="collapse navbar-collapse navbar_toggle justify-content-end" id="navbarNav">
+                <ul class="navbar-nav nav_list">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Elements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <a class="search" href="#">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="slider">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner slider_img">
+                    <div class="carousel-item active">
+                        <img src="./images/slider-img.png" alt="Los Angeles">
+                        <div class="slider_content">
+                            <div class="content_description">
+                                <h1>We Build Better & Faster</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.
+                                </p>
+                                <div class="read_more read_more_mobile rounded-pill" style="margin: auto">
+                                    <a href="#">Learn More
+                                        <span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider-img.png" alt="Chicago">
+                        <div class="slider_content">
+                            <div class="content_description">
+                                <h1>We Build Better & Faster</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.
+                                </p>
+                                <div class="read_more read_more_mobile rounded-pill" style="margin: auto">
+                                    <a href="#">Learn More
+                                        <span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider-img.png" alt="New York">
+                        <div class="slider_content">
+                            <div class="content_description">
+                                <h1>We Build Better & Faster</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.
+                                </p>
+                                <div class="read_more read_more_mobile rounded-pill" style="margin: auto">
+                                    <a href="#">Learn More
+                                        <span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev slider_icon" type="button" data-bs-target="#demo"
+                    data-bs-slide="prev">
+                    <i class="fa-solid fa-chevron-left white_color"></i>
+                </button>
+                <button class="carousel-control-next slider_icon" type="button" data-bs-target="#demo"
+                    data-bs-slide="next">
+                    <i class="fa-solid fa-chevron-right white_color"></i>
+                </button>
+            </div>
+        </div>
+        <div class="container web_service py-5">
+            <div class="row ">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="web_service_left">
+                        <h2>
+                            <b>Welcome to<span class="highlight_word"> Web Service</span></b>
+                        </h2>
+                        <div class="horizontal_line"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="read_more rounded-pill">
+                            <a href="#">Read More
+                                <span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 web_service_right">
+                    <div class="web_service_component mobile_view">
+                        <div class="service_img">
+                            <img src="./images/wel-thumb-1.png" class="img-fluid rounded" alt="No-Image">
+                        </div>
+                        <div class="service_description p-3">
+                            <h6><b>Technology trends</b></h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                            <a href="#">Learn More
+                                <span><i class="fa-solid fa-chevron-right learn_arrow"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="web_service_component">
+                        <div class="service_img">
+                            <img src="./images/wel-thumb-2.png" class="img-fluid" alt="No-Image">
+                        </div>
+                        <div class="service_description p-3">
+                            <h6><b>Industry Experts</b></h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                            <a href="#">Learn More
+                                <span><i class="fa-solid fa-chevron-right learn_arrow"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" solution_thumb_main">
+            <div class="container  py-5 solution_thumb">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12">
+                        <img src="./images/solution-thumb-1.png" class="img-fluid rounded" alt="No-Image">
+                    </div>
+                    <div class="col-md-6 col-sm-12 solution_thumb_right">
+                        <h2>
+                            We provide the solution to grow your business
+                            <span class="highlight_word">From Good to Great.</span>
+                        </h2>
+                        <div class="horizontal_line"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <ul>
+                            <li>Ipsum dummy text goes here now lorem ipsum.</li>
+                            <li>Ipsum dummy text goes here now lorem ipsum.</li>
+                            <li>Ipsum dummy text goes here now lorem ipsum.</li>
+                        </ul>
+
+                        <div class="thumb_icons">
+                            <div class="icons_component">
+                                <img class="img-fluid border border-0" src="./images/solution-icon-1.png"
+                                    alt="No-Image">
+                                <h6>Think</h6>
+                            </div>
+                            <div class="horizontal_line_second"></div>
+                            <div class="icons_component">
+                                <img class="img-fluid border border-0" src="./images/solution-icon-2.png"
+                                    alt="No-Image">
+                                <h6>Wireframe</h6>
+                            </div>
+                            <div class="horizontal_line_second"></div>
+                            <div class="icons_component">
+                                <img class="img-fluid border border-0" src="./images/solution-icon-3.png"
+                                    alt="No-Image">
+                                <h6>Powerful Design</h6>
+                            </div>
+                            <div class="horizontal_line_second"></div>
+                            <div class="icons_component">
+                                <img class="img-thumbnail border border-0" src="./images/solution-icon-4.png"
+                                    alt="No-Image">
+                                <h6>Deveopment</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row  py-5 worldwide">
+                <div class="col-md-6 col-sm-12 worldwide_left">
+                    <h2>We are Available Worldwide</h2>
+                    <div class="horizontal_line"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
+                    </p>
+                    <div class="read_more rounded-pill">
+                        <a href="#">Contact Us<span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 worldwide_img">
+                    <img src="./images/map-background.png" class="img-fluid" alt="No-Image">
+                </div>
+            </div>
+        </div>
+        <div class="smart_solution">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 smart_solution_content">
+                        <h2>Creative web service agency for smart solutions.</h2>
+                        <div class="read_more rounded-pill">
+                            <a href="#">Contact Us<span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5 provide_service">
+        <div class="row ">
+            <div class="col-12 provide_service_head">
+                <h2>
+                    We Provide All Kind Of
+                    <span class="highlight_word">Web Service</span>
+                </h2>
+                <div class="horizontal_line"></div>
+            </div>
+        </div>
+        <div class="row  ">
+            <div class="col-md-4 col-sm-6">
+                <div class="card_item">
+                    <div class="card_img">
+                        <img class="card-img-top" src="./images/provide-thumb-1.png" alt="Card image">
+                    </div>
+                    <div class="card_header p-3 d-flex">
+                        <div class="header_badge">Design</div>
+
+                        <h6>
+                            <b>Web Design</b>
+                        </h6>
+                    </div>
+                    <div class="card_description px-3 pb-4">
+                        <p>
+                            John Doe is an architect and engineer some example text some
+                            example text. John Doe is an architect and engineer John Doe
+                            is an architect and engineer.
+                        </p>
+                    </div>
+                    <div class="card_footer pt-3 pb-3 border-top">
+                        <a href="#" class="btn"><b>Learn More</b>
+                            <i class="fa-solid fa-chevron-right" style="color: #000"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card_item">
+                    <div class="card_img">
+                        <img class="card-img-top" src="./images/provide-thumb-2.png" alt="Card image">
+                    </div>
+                    <div class="card_header p-3 d-flex">
+                        <div class="header_badge">Design</div>
+
+                        <h6>
+                            <b>Graphic Design</b>
+                        </h6>
+                    </div>
+                    <div class="card_description px-3 pb-4">
+                        <p>
+                            John Doe is an architect and engineer some example text some
+                            example text. John Doe is an architect and engineer John Doe
+                            is an architect and engineer.
+                        </p>
+                    </div>
+                    <div class="card_footer pt-3 pb-3 border-top">
+                        <a href="#" class="btn"><b>Learn More</b>
+                            <i class="fa-solid fa-chevron-right" style="color: #000"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card_item">
+                    <div class="card_img">
+                        <img class="card-img-top" src="./images/provide-thumb-3.png" alt="Card image">
+                    </div>
+                    <div class="card_header p-3 d-flex">
+                        <div class="header_badge">Design</div>
+
+                        <h6>
+                            <b>Marketing Strategy</b>
+                        </h6>
+                    </div>
+                    <div class="card_description px-3 pb-4">
+                        <p>
+                            John Doe is an architect and engineer some example text some
+                            example text. John Doe is an architect and engineer John Doe
+                            is an architect and engineer.
+                        </p>
+                    </div>
+                    <div class="card_footer pt-3 pb-3 border-top">
+                        <a href="#" class="btn"><b>Learn More</b>
+                            <i class="fa-solid fa-chevron-right" style="color: #000"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" py-5 review_main">
+        <div class="container">
+            <div class="row review_head">
+                <div class="col-md-12 reiew_head_content">
+                    <h2>
+                        <b><span class="highlight_word">Great </span>Reviews from our
+                            Clients</b>
+                    </h2>
+                    <div class="horizontal_line"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12">
+                    <div id="slider-container">
+                        <div class="review_page" style="display: flex; flex-wrap: wrap">
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-1.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div><img src="./images/client-thumb-2.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-3.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-4.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review_page" style="display: flex; flex-wrap: wrap">
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-1.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div><img src="./images/client-thumb-2.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-3.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-4.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review_page" style="display: flex; flex-wrap: wrap">
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-1.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div><img src="./images/client-thumb-2.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+                                <div> <img src="./images/client-thumb-3.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="client_review">
+    
+                                <div> <img src="./images/client-thumb-4.png" alt="No-Image"></div>
+                                <div class="review_description p-3">
+                                    <h6><b>Client Name here</b></h6>
+                                    <p>Ipsum text here</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row  counter_block py-5">
+            <div class="col-md-3 col-sm-6 col-xs-6 counter_item ">
+                <div>
+                    <img src="./images/counter-icon-1.png" alt="No-Image">
+                </div>
+                <div class="counter_item_description ms-2">
+                    <h2 id="counter1">0</h2>
+                    <p>Satisfied Customer</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 counter_item">
+                <div><img src="./images/counter-icon-2.png" alt="No-Image"></div>
+                <div class="counter_item_description ms-2">
+                    <h2 id="counter2">0</h2>
+                    <p>Created Designs Assets</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 counter_item">
+                <div><img src="./images/counter-icon-3.png" alt="No-Image"></div>
+                <div class="counter_item_description ms-2">
+                    <h2 id="counter3">0</h2>
+                    <p>Lines of Code</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 counter_item">
+                <div><img src="./images/counter-icon-4.png" alt="No-Image"></div>
+                <div class="counter_item_description ms-2">
+                    <h2 id="counter4">0</h2>
+                    <p>Built Websites</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cornerstone">
+        <div class="cornerstone_img">
+            <img src="./images/value-bg.png" class="img-fluid" alt="No-Image">
+        </div>
+        <div class="p-3 cornerstone_right">
+            <div class="cornerstone_right_content">
+                <h2>
+                    The cornerstone of our success,<span class="highlight_word">We value your time</span>.
+                </h2>
+                <div class="horizontal_line"></div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <ul>
+                    <li>Ipsum dummy text goes here now lorem ipsum.</li>
+                    <li>Ipsum dummy text goes here now lorem ipsum.</li>
+                    <li>Ipsum dummy text goes here now lorem ipsum.</li>
+                </ul>
+                <div class="cornerstone_btn">
+                    <div class="read_more rounded-pill me-3">
+                        <a href="#">Read More
+                            <span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                    </div>
+                    <div class="read_more rounded-pill" style="background-color: #000;">
+                        <a href="#">Contact Us
+                            <span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row  awesome py-5">
+            <div class="col-md-10 col-sm-6 awesome_left">
+                <h2>Create awesome web sites with us!</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod.
+                </p>
+            </div>
+            <div class="col-md-2 col-sm-2">
+                <div class="read_more rounded-pill">
+                    <a href="#">Read More
+                        <span><i class="fa-solid fa-chevron-right white_color"></i></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="  footer_head">
+        <div class="container footer_head_content">
+            <div class="row ">
+                <div class="col-md-3 col-sm-6 footer_about">
+                    <h4>
+                        About Us
+                    </h4>
+                    <div class="horizontal_line_third"></div>
+                    <div class="py-4 about_content">
+                        <img src="./images/footer-logo.png" class="py-3" alt="No-Image">
+                        <p>
+                            Lorem ipsum dol sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                        <div>
+                            <i class="fa-brands fa-facebook-f white_color"></i>
+                            <i class="fa-brands fa-twitter white_color"></i>
+                            <i class="fa-brands fa-google-plus-g white_color"></i>
+                            <i class="fa-brands fa-vimeo-v white_color"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 footer_news">
+                    <h4>
+                        Letest News
+                    </h4>
+                    <div class="horizontal_line_third"></div>
+                    <div class="py-4 news_content">
+                        <p class="gray_color">
+                            2019.03.12<br /><span class="white_color">Ipsum dummy text goes here text</span>
+                        </p>
+                        <div class="horizontal_line_four"></div>
+                        <p class="gray_color">
+                            2019.03.12<br /><span class="white_color">Ipsum dummy text goes here text</span>
+                        </p>
+                        <div class="horizontal_line_four"></div>
+                        <p class="gray_color">
+                            2019.03.12<br /><span class="white_color">Ipsum dummy text goes here text</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4>
+                        Contact Info
+                    </h4>
+                    <div class="horizontal_line_third"></div>
+                    <div class="py-4">
+                        <div class="contact_item"><span><i
+                                    class="fa-solid fa-phone-flip pe-3 py-2 blue_color"></i></span><a href="#">+12 (3)
+                                456 789 1011</a></div>
+                        <div class="contact_item"><span><i
+                                    class="fa-solid fa-envelope-open pe-3 py-2 blue_color"></i></span><a
+                                href="#">email.id@gmail.com</a></div>
+                        <div class="contact_item"><span><i
+                                    class="fa-solid fa-location-dot pe-3 py-2 blue_color"></i></span><a> Address
+                                line,goes here</a></div>
+                        <div class="contact_item"><span><i
+                                    class="fa-solid fa-square-phone-flip pe-3 py-2 blue_color"></i></span><a
+                                href="#">+01 (2) 345 678 9101</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4>
+                        Quick Links
+                    </h4>
+                    <div class="horizontal_line_third"></div>
+                    <div class="py-4 link_content">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Company History</a>
+                        <a href="#">Recent Posts</a>
+                        <a href="#">Our Services</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom_main">
+        <div class="container">
+            <div class="row pt-4 pb-2 footer_bottom">
+                <div class="col-md-6 col-sm-12">
+                    <p>
+                        Copyright &copy; 2019 by,<span class="highlight_word_second"> Web Service</span>,
+                        All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-12 bottom_link">
+                    <a href="#" class="px-2 border-end">Privacy Policy</a>
+                    <a href="#" class="px-2 border-end">FAQ</a>
+                    <a href="#" class="px-2 ">Contact US</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#slider-container").slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                autoplay: true,
+                dots: true,
+                autoplaySpeed: 4000,
+                responsive: [
+                    {
+                        settings: {
+                            slidesToShow: 3,
+                        },
+                    },
+                    {
+                        settings: {
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+            });
+        });
+    </script>
+    <script>
+        function createCounter(id, targetValue) {
+            let count = 0;
+            const counterElement = document.getElementById(id);
+            const interval = setInterval(() => {
+                if (count < targetValue) {
+                    count++;
+                    counterElement.textContent = count + "+";
+                } else {
+                    clearInterval(interval);
+                }
+            });
+        }
+        window.onload = function () {
+            createCounter("counter1", 950);
+            createCounter("counter2", 620);
+            createCounter("counter3", 1250);
+            createCounter("counter4", 1700);
+        };
+    </script>
+</body>
+
+</html>
